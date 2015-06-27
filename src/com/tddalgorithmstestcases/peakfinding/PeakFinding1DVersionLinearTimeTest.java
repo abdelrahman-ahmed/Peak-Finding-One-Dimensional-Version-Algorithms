@@ -1,4 +1,4 @@
-package com.tddalgorithms.peakfinding;
+package com.tddalgorithmstestcases.peakfinding;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;

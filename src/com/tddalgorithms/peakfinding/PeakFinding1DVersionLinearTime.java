@@ -6,7 +6,7 @@ package com.tddalgorithms.peakfinding;
  */
 public class PeakFinding1DVersionLinearTime {
 
-  	public static Integer findPeak(Integer[] input) {
+	public static Integer findPeak(Integer[] input) {
 
 		if (isInputContainsNoItems(input))
 			return null;
@@ -15,7 +15,6 @@ public class PeakFinding1DVersionLinearTime {
 		else if (firstItemIsPeak(input))
 			return input[0];
 		else {
-
 			for (int index = 1; index < input.length - 1; index++) {
 				if (isPeak(input, index))
 					return input[index];
