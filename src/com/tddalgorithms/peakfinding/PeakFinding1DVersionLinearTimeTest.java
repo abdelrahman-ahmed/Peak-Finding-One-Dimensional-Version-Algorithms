@@ -6,6 +6,8 @@ import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
+import com.tddalgorithms.peakfinding.PeakFinding1DVersionLinearTime;
+
 public class PeakFinding1DVersionLinearTimeTest {
 
 	@Test
