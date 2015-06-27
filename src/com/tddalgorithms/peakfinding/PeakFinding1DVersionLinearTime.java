@@ -1,4 +1,4 @@
-package com.mitalgorithmscourse.peakfinding;
+package com.tddalgorithms.peakfinding;
 
 /**
  * @author Abdelrahman Shaheen

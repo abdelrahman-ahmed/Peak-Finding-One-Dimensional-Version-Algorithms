@@ -1,4 +1,4 @@
-package com.mitalgorithmscourse.peakfindingtests;
+package com.tddalgorithms.peakfinding;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -6,7 +6,7 @@ import static org.junit.Assert.assertNull;
 
 import org.junit.Test;
 
-import com.mitalgorithmscourse.peakfinding.PeakFinding1DVersionLinearTime;
+import com.tddalgorithms.peakfinding.PeakFinding1DVersionLinearTime;
 
 public class PeakFinding1DVersionLinearTimeTest {
 
