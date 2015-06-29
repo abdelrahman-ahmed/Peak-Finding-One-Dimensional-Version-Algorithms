@@ -8,6 +8,10 @@ import org.junit.Test;
 
 import com.tddalgorithms.peakfinding.PeakFinding1DVersionLinearTime;
 
+/**
+ * @author Abdelrahman Shaheen
+ *
+ */
 public class PeakFinding1DVersionLinearTimeTest {
 
 	@Test

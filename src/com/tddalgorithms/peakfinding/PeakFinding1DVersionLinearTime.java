@@ -8,9 +8,9 @@ public class PeakFinding1DVersionLinearTime {
 
 	public static Integer findPeak(Integer[] input) {
 
-		if (isInputContainsNoItems(input))
+		if (inputContainsNoItems(input))
 			return null;
-		else if (isInputContainsOneItemOnly(input))
+		else if (inputContainsOneItemOnly(input))
 			return input[0];
 		else if (firstItemIsPeak(input))
 			return input[0];
@@ -27,11 +27,11 @@ public class PeakFinding1DVersionLinearTime {
 		return null;
 	}
 
-	private static boolean isInputContainsNoItems(Integer[] input) {
+	private static boolean inputContainsNoItems(Integer[] input) {
 		return input.length == 0;
 	}
 
-	private static boolean isInputContainsOneItemOnly(Integer[] input) {
+	private static boolean inputContainsOneItemOnly(Integer[] input) {
 		return input.length == 1;
 	}
 
